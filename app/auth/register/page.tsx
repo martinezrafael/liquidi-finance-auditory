@@ -116,7 +116,7 @@ export default function RegisterPage() {
           </div>
 
           <button type="submit" disabled={loading}>
-            {loading ? "Processando..." : "Finalizar Cadastro Corporativo"}
+            {loading ? "Processando..." : "Finalizar Cadastro"}
           </button>
         </form>
 
