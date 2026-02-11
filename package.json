@@ -3,9 +3,34 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "keywords": [
+    "liquidi",
+    "finance",
+    "auditory",
+    "openfinance"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinezrafael/liquidi-finance-auditory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/martinezrafael/liquidi-finance-auditory/issues"
+  },
+  "homepage": "https://github.com/martinezrafael/liquidi-finance-auditory#readme"
 }
