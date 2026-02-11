@@ -1,10 +1,14 @@
+"use client";
+
+import React from "react";
+
 const AuthLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <html lang="pt-BR">
-      <body>
+    <div>
+      <div>
         <main>{children}</main>
-      </body>
-    </html>
+      </div>
+    </div>
   );
 };
 
