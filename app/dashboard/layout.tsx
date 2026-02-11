@@ -1,4 +1,4 @@
-export default function Layout({ children }: { children: React.ReactNode }) {
+const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="pt-BR">
       <body>
@@ -6,4 +6,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       </body>
     </html>
   );
-}
+};
+
+export default DashboardLayout;
